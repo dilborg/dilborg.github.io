@@ -1,1 +1,39 @@
-{"name":"Dilborg.GitHub.io","tagline":"Dilborg's Github Projects","body":"### Welcome to my github page.\r\nThis automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:\r\n\r\n```\r\n$ cd your_repo_root/repo_name\r\n$ git fetch origin\r\n$ git checkout gh-pages\r\n```\r\n\r\nIf you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.\r\n\r\n### Designer Templates\r\nWe've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.\r\n\r\n### Rather Drive Stick?\r\nIf you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.\r\n\r\n### Authors and Contributors\r\nYou can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Check out the documentation at https://help.github.com/pages or contact support@github.com and we’ll help you sort it out.\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+	"name":"Dilborg Open Source",
+	"tagline":"Advancing technology through open initiatives",
+	"body":"
+	###  Welcome to Dilborg's open source on Github 
+	![Dilborg logo]( http://dilborg.github.com/img/dilborg_logo.png)
+	\r\n\r\n
+	##**New and Noteworthy**:
+	\r\n\r\n[**Cordova 3.3:** ](http://projects.apache.org/projects/cordova.html) Cordova 3.3 released (leaves the github site)
+	\r\n\r\n[**ActionScript® 4 specification:** ](https://github.com/adobe-research/ActionScript4) The ActionScript® 4.0 Language Specification 
+	\r\n\r\n[**ShaderDSL**: ](https://github.com/adobe-webplatform/shaderdsl) is a compiler from a subset of JavaScript to GLSL. ShaderDSL.js allows you to write GLSL shaders in plain JavaScript, instead of the C like (GLSL) language used today.
+	\r\n\r\n\r\n\r\n
+	## **Organizations:**
+	\r\n(Adobe groups that are releasing technology under open source.  There may be multiple projects under each organization)
+	\r\n\r\n[**Adobe:** ](https://github.com/adobe) Repository for certain Adobe Open Source releases
+	\r\n\r\n[**Adobe Muse:** ](https://github.com/Adobe-Muse) Repository for releases from the Adobe Muse team
+	\r\n\r\n[**Adobe Marketing Cloud:** ](https://github.com/organizations/Adobe-Marketing-Cloud/) Open source SDKs. samples and boilerplate from the Adobe Marketing Cloud
+	\r\n\r\n[**Adobe Security:** ](https://github.com/adobe-security) Tools and techniques from Adobe Security
+	\r\n\r\n[**Adobe Research:** ](https://github.com/adobe-research) Technology and cool stuff from Adobe Research
+	\r\n\r\n[**Adobe Web Platform:** ](https://github.com/adobe-Webplatform) Technology relating to the web from Adobe Web Platform
+	\r\n\r\n[**Adobe Fonts:** ](https://github.com/adobe-fonts) Open fonts and related technology from the Adobe Font teams
+	\r\n\r\n[**Adobe CloudOps:** ](https://github.com/Adobe-CloudOps) Techniques  and technology from the Adobe Cloud Operations
+	\r\n\r\n[**Brackets:** ](http://www.brackets.io/) An open source code editor for the web, written in JavaScript, HTML and CSS
+	\r\n\r\n[**Edge Code:** ](https://github.com/edge-code) The source for Edge code related technology
+	\r\n\r\n[**Topcoat**: ](https://github.com/topcoat/topcoat) UI Library for creating beautiful and responsive applications using web standards
+	\r\n\r\n[**Adobe Flash**: ](https://github.com/adobe-flash) Technology releases relating to Adobe Flash
+	\r\n\r\n[**Adobe Photoshop**: ](https://github.com/adobe-photoshop) Adobe Photoshop teams open source technology releases
+	\r\n\r\n
+	## **Popular Projects**:
+	\r\n\r\n[**Brackets:** ](http://www.brackets.io/) An open source code editor for the web, written in JavaScript, HTML and CSS
+	\r\n\r\n[**Source Sans Pro:** ](https://github.com/adobe/source-sans-pro) OpenType fonts that have been designed to work well in user interface (UI) environments
+	\r\n\r\n[**Source Code Pro:** ](https://github.com/adobe/source-code-pro) OpenType fonts that have been designed to work well in code environments
+	\r\n\r\n[**CSS Filterlab:** ](https://github.com/adobe/cssfilterlab) Browser-based tool that lets you use and modify CSS filters and see the effects in real time 
+	\r\n\r\n[**Balanced Text:** ](https://github.com/adobe-webplatform/balance-text) jQuery plugin for implementing balancing of wrapping text in a web page
+	\r\n\r\n[**Phonegap:** ](http://github.com/phonegap) Web platform that exposes native mobile device apis and data to JavaScript. PhoneGap is a distribution of [Apache Cordova](http://cordova.apache.org/)
+	\r\n\r\n[**Generator**: ](https://github.com/adobe-photoshop)  is a JavaScript-based extensibility technology for Adobe Photoshop CC.
+	\r\n\r\n[**Theseus**: ](https://github.com/adobe-research/theseus) is a new type of JavaScript debugger for Node.js, Chrome, and both simultaneously. It is an extension for the Brackets code editor. Theseus is part of a collaboration between the User Interface Design Group at MIT CSAIL and Adobe Research.
+	\r\n\r\n***","google":"UA-49693735-2","note":"Don't delete this file! It's used internally to help with page regeneration.
+	"}
