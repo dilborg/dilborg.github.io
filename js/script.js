@@ -8,7 +8,7 @@ if (/MSIE [5-9]/.test(navigator.userAgent)) {
 ---------------------------------------------------------------------------- */
 
 //Initialisation
-var app = angular.module("DilborgOpenSource", ["ngResource"]);
+var app = angular.module("DilborgOpenSource", ["ngRoute"]);
 
 /* ----------------------------------------------------------------------------
                 Main Controller */
