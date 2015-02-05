@@ -8,18 +8,18 @@ if (/MSIE [5-9]/.test(navigator.userAgent)) {
 ---------------------------------------------------------------------------- */
 
 //Initialisation
-var app = angular.module("AdobeOpenSource", ["ngResource"]);
+var app = angular.module("DilborgOpenSource", ["ngResource"]);
 
 /* ----------------------------------------------------------------------------
                 Main Controller */
 
-//Get Adobe Github repos & orgs
-app.factory("DatasAdobe", function($resource) {
+//Get Dilborg Github repos & orgs
+app.factory("DatasDilborg", function($resource) {
     return $resource("http://server-adobe-github.herokuapp.com");
 });
 
 //Offline backup of json
-app.factory("DatasAdobeOffline", function($resource) {
+app.factory("DatasDilborgOffline", function($resource) {
     return $resource("data/server.json");
 });
 
@@ -29,7 +29,7 @@ app.factory("FeaturedHeader", function($resource) {
 });
 
 //TODO : Manage offline project list when errors
-this.GitHubCtrl = function($scope, $sce, $filter, DatasAdobe, DatasAdobeOffline, FeaturedHeader) {
+this.GitHubCtrl = function($scope, $sce, $filter, DatasDilborg, DatasDilborgOffline, FeaturedHeader) {
 
     //------------------------------- Init --------------------------------
     
@@ -88,7 +88,7 @@ this.GitHubCtrl = function($scope, $sce, $filter, DatasAdobe, DatasAdobeOffline,
     $scope.projects = [];
     $scope.orgs = [];
 
-    DatasAdobe.query(function(rep) {
+    DatasDilborg.query(function(rep) {
         if (rep[0]) {
             $scope.updateData(rep[0]);
         } else {
@@ -103,7 +103,7 @@ this.GitHubCtrl = function($scope, $sce, $filter, DatasAdobe, DatasAdobeOffline,
     $scope.loadOffline = function() {
         //TODO: display message in front
         
-        DatasAdobeOffline.query(function(rep) {
+        DatasDilborgOffline.query(function(rep) {
             if (rep[0]) {
                 $scope.updateData(rep[0]);
             } else {
