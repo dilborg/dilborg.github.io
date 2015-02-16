@@ -4,7 +4,7 @@ if (/MSIE [5-9]/.test(navigator.userAgent)) {
 } else {
 
 /* ----------------------------------------------------------------------------
-                GitHup Ctrl
+                GitHub Ctrl
 ---------------------------------------------------------------------------- */
 
 //Initialisation
@@ -15,7 +15,9 @@ var app = angular.module("DilborgOpenSource", ["ngResource"]);
 
 //Get Dilborg Github repos & orgs
 app.factory("DatasDilborg", function($resource) {
-    return $resource("http://server-adobe-github.herokuapp.com");
+    //return $resource("http://server-adobe-github.herokuapp.com");
+	//test the json structure
+	return $resource("data/server.json");
 });
 
 //Offline backup of json
@@ -55,7 +57,7 @@ this.GitHubCtrl = function($scope, $sce, $filter, DatasDilborg, DatasDilborgOffl
 
     //------------------------------- Featured header --------------------------------
     
-    // hFeatured on the header
+    // Featured on the header
     $scope.featureds = FeaturedHeader.query(function() {
         $scope.featureds = $scope.featureds[0];
         var keys = Object.keys($scope.featureds);
@@ -92,7 +94,7 @@ this.GitHubCtrl = function($scope, $sce, $filter, DatasDilborg, DatasDilborgOffl
         if (rep[0]) {
             $scope.updateData(rep[0]);
         } else {
-            console.error("ERROR: The data recieved from the server seems to be corrupted.");
+            console.error("ERROR: The data received from the server seems to be corrupted.");
             $scope.loadOffline();
         }
     }, function(error) {
